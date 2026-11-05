@@ -1,0 +1,16 @@
+name: Task
+description: A piece of work that is not a bug or a user-facing feature (setup, chores, research).
+type: Task
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What to do
+    validations:
+      required: true
+  - type: textarea
+    id: done-when
+    attributes:
+      label: Done when
+      placeholder: |
+        - [ ] ...

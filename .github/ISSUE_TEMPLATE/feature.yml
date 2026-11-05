@@ -1,0 +1,31 @@
+name: Feature
+description: A new capability or a change to how something works.
+type: Feature
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: Goal
+      description: The user problem, and who has it.
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Expected behaviour
+      description: What the user can do when this is done.
+    validations:
+      required: true
+  - type: textarea
+    id: done-when
+    attributes:
+      label: Done when
+      placeholder: |
+        - [ ] ...
+        - [ ] ...
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes, constraints or open questions
